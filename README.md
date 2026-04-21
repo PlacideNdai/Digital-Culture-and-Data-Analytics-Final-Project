@@ -1,4 +1,10 @@
-# .
+# Digital Culture and Data Analytics Final Project
+  - This is a final project for the Digital Culture and Data Analytics course.
+  - It will holds all the work researched and completed during the course.
+
+# Access the website though the following link:
+
+[https://digital-culture-and-data-analytics-final-project-8qbxve5i4.vercel.app/]
 
 This template should help get you started developing with Vue 3 in Vite.
 
