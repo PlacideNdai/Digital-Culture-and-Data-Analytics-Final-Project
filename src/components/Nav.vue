@@ -19,6 +19,7 @@
         flex-direction: column;
         height: 100vh;
         backdrop-filter: blur(10px);
+        border-right: white solid 5px;
     }
 
     nav a {
@@ -32,6 +33,12 @@
     nav a:hover {
         background-color: var(--hover-nav-background);
         border-radius: 5px;
+    }
+
+    /* styling active link */
+    nav a.router-link-active {
+        background-color: white;
+        color: black;
     }
 
 </style>

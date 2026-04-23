@@ -23,31 +23,38 @@
 
         <div class="video-container">
             <iframe width="560" height="315"
-                :src="`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1controls=0&loop=1&playlist=${videoId}`"
+                :src="`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}`"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </div>
-        </div>
+    </div>
 </template>
 
 
 <script setup>
-    const videoId = 'Ag5QC3NFP3Y';
+const videoId = 'Ag5QC3NFP3Y';
 </script>
 
 <style scoped>
 .home-info {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     padding: 20px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     color: var(--nav-text-color);
     justify-content: center;
 }
 
 .info {
     width: 40vw;
+}
+
+@media screen and (max-width: 1000px) {
+    .mainpage {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 </style>

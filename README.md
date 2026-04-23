@@ -4,7 +4,7 @@
 
 # Access the website though the following link:
 
-[https://digital-culture-and-data-analytics-final-project-8qbxve5i4.vercel.app/]
+[https://digital-culture-and-data-analytics.vercel.app/]
 
 
 

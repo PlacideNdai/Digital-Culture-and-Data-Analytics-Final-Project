@@ -18,10 +18,8 @@ import Nav from './components/Nav.vue';
   background-position: center;
   height: 100vh;
   width: 100vw;
-}
-
-.mainpage {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 </style>
