@@ -39,22 +39,41 @@ const videoId = 'Ag5QC3NFP3Y';
 <style scoped>
 .home-info {
     display: flex;
-    /* flex-direction: column; */
+    font-size: large;
     align-items: center;
     padding: 20px;
     backdrop-filter: blur(20px);
     color: var(--nav-text-color);
     justify-content: center;
+    margin:auto;
+    width: 75%;
 }
 
 .info {
     width: 40vw;
+    /* background: white;
+    color: black; */
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.video-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1000px) {
-    .mainpage {
+    .home-info {
         flex-direction: column;
         justify-content: center;
+        gap: 2rem;
+    }
+
+    .info {
+        width: 65vw;
     }
 }
 </style>
