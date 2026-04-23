@@ -1,0 +1,8 @@
+/* Base Styles */
+:root {
+    --nav-text-color: white;
+    --hover-nav-background: rgba(255, 255, 255, 0.2);
+    --color-text: #000;
+    --color-text-light: #333;
+    --color-text-lighter: #555;
+}
