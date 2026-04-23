@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Arina from './pages/Arina.vue'
+import Arena from './pages/Arena.vue'
 import Breakdown from './pages/Breakdown.vue'
 import Home from './pages/Home.vue'
 import Mechanics from './pages/Mechanics.vue'
@@ -22,9 +22,9 @@ const router = createRouter({
             component: Mechanics
         },
         {
-            path: '/Arina',
-            name: 'Arina',
-            component:Arina
+            path: '/Arena',
+            name: 'Arena',
+            component:Arena
         },
         {
             path: '/breakdown',

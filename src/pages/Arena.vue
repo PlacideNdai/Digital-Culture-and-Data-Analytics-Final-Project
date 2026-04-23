@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Arina</h1>
+        <h1>Arena</h1>
     </div>
 </template>
 

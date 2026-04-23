@@ -2,7 +2,7 @@
     <nav>
         <router-link to="/">Home</router-link>
         <router-link to="/mechanics">Mechanics</router-link>
-        <router-link to="/Arina">Arina</router-link>
+        <router-link to="/Arena">Arena</router-link>
         <router-link to="/breakdown">Breakdown</router-link>
         <router-link to="/openworld">Open World</router-link>
 
