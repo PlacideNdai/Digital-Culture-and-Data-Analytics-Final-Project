@@ -4,7 +4,7 @@
         <router-link to="/mechanics">Mechanics</router-link>
         <router-link to="/Arena">Arena</router-link>
         <router-link to="/breakdown">Breakdown</router-link>
-        <router-link to="/openworld">Open World</router-link>
+        <router-link to="/music">Music</router-link>
 
     </nav>
 </template>

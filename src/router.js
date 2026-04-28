@@ -4,7 +4,7 @@ import Arena from './pages/Arena.vue'
 import Breakdown from './pages/Breakdown.vue'
 import Home from './pages/Home.vue'
 import Mechanics from './pages/Mechanics.vue'
-import Openworld from './pages/Openworld.vue'
+import Music from './pages/Music.vue'
 
 
 
@@ -32,9 +32,9 @@ const router = createRouter({
             component:Breakdown
         },
         {
-            path: '/openworld',
-            name: 'openworld',
-            component: Openworld
+            path: '/music',
+            name: 'music',
+            component: Music
         },
     ]
 })
