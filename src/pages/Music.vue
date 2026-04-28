@@ -1,7 +1,7 @@
 <template>
     <div class="openworld-container">
         <div class="title">
-            <h1>Open World</h1>
+            <h1>Music</h1>
         </div>
 
         <div class="content">
