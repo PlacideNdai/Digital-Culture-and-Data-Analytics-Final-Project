@@ -3,19 +3,22 @@
         <!-- info section -->
         <div class="info">
             <h1>Bringing Order Out of Chaos</h1> <br>
+            <h2>Artist statement</h2> <br>
             <h4>Digital Culture and Data Analytics</h4> <br> <br>
 
 
-            <p>For the semester-long project I choose to do Forza Horizon 5 because it’s one of my favorite games
+            <p>For the semester-long project, I chose to do Forza Horizon 5 because it’s one of my favorite games
                 currently (2026). The goal is to learn about the game and what might have influenced it, drawing on
-                older games from the 1900s to today. </p> <br>
-            <p>Components that I choose to focus on are mechanics, arena, breakdown, and open world.
-                In the mechanic, I choose to focus on drifting and tire marks. For the arena, the discussion will be on
-                the beautiful, the good, and the ugly, meaning, the arena section will talk more on modes that happen,
-                where the players win, lose, and draw (sometimes).
+                older games from the 1800s and/or 1900s to today. </p> <br>
+            <p>Components that I choose to focus on are drift mechanics, arena, breakdown, and music.
+                In the mechanic, I choose to focus on drifting. For the arena, the discussion will be on the beautiful,
+                the good, and the ugly, meaning, the arena section will talk more about a mode, where the players win,
+                lose, and draw (sometimes).
+
             </p> <br>
-            <p>Finally, in each section I will attempt to connect it to the theme which is BRINGING ORDER OUT OF CHAOS
-                THROUGH DRIFTING.</p>
+            <p>Finally, in each section, I will attempt to connect it to the theme, which is BRINGING ORDER OUT OF CHAOS
+                THROUGH DRIFTING, and other components mentioned above.
+            </p>
         </div>
 
         <!-- video -->
@@ -45,7 +48,7 @@ const videoId = 'Ag5QC3NFP3Y';
     backdrop-filter: blur(20px);
     color: var(--nav-text-color);
     justify-content: center;
-    margin:auto;
+    margin: auto;
     width: 75%;
 }
 
