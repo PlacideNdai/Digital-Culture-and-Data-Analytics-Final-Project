@@ -22,17 +22,6 @@
                 </p>
 
 
-                <h3>Try 1080 Snowboarding here:</h3>
-                <a href="https://retromania.gg/games/n64/1080deg-snowboarding">Play on Retromania!</a>
-            </div>
-        </div>
-
-
-        <div class="mec-details">
-            <div class="title">
-                <h1>Theme Connection</h1>
-            </div>
-            <div class="details">
                 <p>Life is hard, everyone knows that, it doesn’t matter what status you are (working, middle, top class,
                     etc). When something is hard, it’s chaos, whether it’s school work keeping you awake longer than it
                     should, or learning an instrument and you can’t get the chord right, and so on. In those situations,
@@ -42,11 +31,20 @@
                     from drifting, play with it!</p>
             </div>
         </div>
+
+
+        <div class="video">
+            <iframe width="560" height="315"
+                :src="`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}`"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </div>
 </template>
 
 <script setup>
-
+const videoId = 'C86aZqLJGKY';
 </script>
 
 <style scoped>
@@ -62,26 +60,25 @@
 }
 
 .mec-container>div {
-    height: auto;
+    height: fit-content;
     background: transparent;
     backdrop-filter: blur(70px);
     color: white;
     width: 100%;
     border-radius: 10px;
     padding: .5rem;
+    margin: auto;
 }
 
-.mec-details p {
-    width: 80%;
-    font-size: large;
+.mec-container p {
+    width: 90%;
     padding: 1rem;
 }
 
-.mec-details a {
-    font-size: x-large;
-    text-align: center;
-    display: block;
-    color: aliceblue;
-    padding-top: 1rem;
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 </style>

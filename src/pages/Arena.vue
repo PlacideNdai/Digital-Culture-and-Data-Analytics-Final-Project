@@ -22,15 +22,20 @@
                 You’re to drift your way to victory, even if that means getting to point B.
 
             </p>
+        </div>
 
-            <h3>Try WWF War Zone USA here:</h3>
-            <a href="https://retrogamesonline.io/wwf-war-zone-usa ">Play on Retrogamesonline!</a>
+        <div class="video">
+            <iframe width="560" height="315"
+                :src="`https://www.youtube.com/embed/${videoID}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoID}`"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 </template>
 
 <script setup>
-
+const videoID = "t1_ixHCAQis"
 </script>
 
 <style scoped>
@@ -57,5 +62,11 @@
     font-size: x-large;
     text-align: center;
     display: block;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>

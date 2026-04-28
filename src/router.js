@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+import Action from './pages/Action.vue'
 import Arena from './pages/Arena.vue'
 import Breakdown from './pages/Breakdown.vue'
 import Home from './pages/Home.vue'
@@ -35,7 +36,11 @@ const router = createRouter({
             path: '/music',
             name: 'music',
             component: Music
-        },
+        },{
+            path: '/action',
+            name: 'action',
+            component: Action
+        }
     ]
 })
 

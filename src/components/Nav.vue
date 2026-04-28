@@ -5,6 +5,7 @@
         <router-link to="/Arena">Arena</router-link>
         <router-link to="/breakdown">Breakdown</router-link>
         <router-link to="/music">Music</router-link>
+        <router-link to="/action">Action</router-link>
 
     </nav>
 </template>

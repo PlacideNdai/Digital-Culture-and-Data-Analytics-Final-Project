@@ -20,15 +20,21 @@
                 out, it’s okay to tap and break down; what matters is when you get up and continue the journey started.
                 Setbacks and obstacles make us stronger; therefore, don’t run from them.
             </p>
+        </div>
 
-            <h3>Try Race Driver Grid here:</h3>
-            <a href="https://retrogamesonline.io/race-driver-grid-europe-enfrdeesit"> Play on Retrogamesonline!</a>
+
+        <div class="video">
+            <iframe width="560" height="315"
+                :src="`https://www.youtube.com/embed/${videoID}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoID}`"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </div>
 </template>
 
 <script setup>
-
+const videoID = "k5b8Z7b_0ug"
 </script>
 
 <style scoped>
@@ -55,5 +61,11 @@
     font-size: x-large;
     text-align: center;
     display: block;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>
