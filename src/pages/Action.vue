@@ -18,7 +18,7 @@
                 <a href="https://classicreload.com/play/big-run.html"> Play on Classic Reload!</a>
             </div>
             <div @click="window.open('https://retromania.gg/games/n64/1080deg-snowboarding')">
-                <h3>Try 1080 Snowboarding here:</h3>
+                <h3>Try 1080 Snowboarding</h3>
                 <a href="https://retromania.gg/games/n64/1080deg-snowboarding">Play on Retromania!</a>
 
             </div>
@@ -30,13 +30,13 @@
 
 
             <div @click="window.open('https://www.retrogamesonline.io/wwf-war-zone-usa')">
-                <h3>Try WWF War Zone USA here:</h3>
+                <h3>Try WWF War Zone USA</h3>
                 <a href="https://retrogamesonline.io/wwf-war-zone-usa ">Play on Retrogamesonline!</a>
             </div>
 
 
             <div @click="window.open('https://www.retrogamesonline.io/race-driver-grid-europe-enfrdeesit')">
-                <h3>Try Race Driver Grid here:</h3>
+                <h3>Try Race Driver Grid</h3>
                 <a href="https://retrogamesonline.io/race-driver-grid-europe-enfrdeesit" target="_blank">Play on Retrogamesonline!</a>
             </div>
         </div>
@@ -80,10 +80,15 @@
         align-items: center;
     }
 
+    .game-container div a {
+        color: white;
+        text-decoration: none;
+    }
+
 
     .game-container div:hover {
-        background: white;
-        color: black;
+        background: rgba(210, 203, 203, 0.284);
+        color: white;
         cursor: pointer;
         scale: 1.001;
         transition: all .2s ease-in-out;
